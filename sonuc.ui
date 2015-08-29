@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>532</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Subpear</family>
+    <pointsize>20</pointsize>
+    <weight>50</weight>
+    <italic>true</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(66, 19, 255);
+color: rgb(255, 255, 127);
+font: oblique 20pt &quot;Subpear&quot;;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>761</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Serif</family>
+     <pointsize>48</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: italic 48pt &quot;Serif&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SONUC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>470</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TAMAM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>191</y>
+     <width>154</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Vatandaşlık No:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>241</y>
+     <width>132</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>İsim-Soyisim:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_isim">
+   <property name="geometry">
+    <rect>
+     <x>179</x>
+     <y>241</y>
+     <width>281</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>label_isim</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>180</y>
+     <width>286</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Doğum Tarihi:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_dogum">
+      <property name="text">
+       <string>label_dogum</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>230</y>
+     <width>402</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_sskno3">
+      <property name="text">
+       <string>SSK Sicil No:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_sskno">
+      <property name="text">
+       <string>label_sskno</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>359</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_sskno_2">
+      <property name="text">
+       <string>Toplam Gün Sayısı:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_gunsayisi">
+      <property name="text">
+       <string>label_gunsayisi</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_tcno">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>191</y>
+     <width>261</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>lbl_tcno</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>btn_ok</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_tcno</zorder>
+  <zorder>label_tcno</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_isim</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_dogum</zorder>
+  <zorder>label_sskno3</zorder>
+  <zorder>label_sskno</zorder>
+  <zorder>label_sskno_2</zorder>
+  <zorder>label_gunsayisi</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_ok</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>kapat()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>514</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>585</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>kapat()</slot>
+ </slots>
+</ui>

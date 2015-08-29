@@ -60,7 +60,7 @@ class numpad(QDialog):
 
         self.btn_tamam.setEnabled(False)
         self.sonuc=sonuclar(self)
-        self.btn_tamam.clicked.connect(lambda:self.sonuc_goster(self.label_aciklama.text(),self.label.text()))#     self.ui.setWindowFlags(Qt.FramelessWindowHint)
+        self.btn_tamam.clicked.connect(lambda:self.sonuc_goster(self.label_aciklama.text()))#     self.ui.setWindowFlags(Qt.FramelessWindowHint)
         
        # self.ui.pushButton_13.clicked.connect(lambda: self.acil('NE ZAMAN EMEKLİ OLABİLİRİM?'))
         self.setWindowFlags(Qt.SplashScreen)
@@ -131,13 +131,12 @@ class numpad(QDialog):
         self.label.setText(st)
         self.digit_kontrol()
         
-    def sonuc_goster(self,aciklama,tcno):
+    def sonuc_goster(self,aciklama):
         sender=self.sender()
         self.label.setText("")
         self.sonuc.show()
         self.sonuc.label.setText(aciklama)
-        self.sonuc.label_tcno.setText(tcno)
-        self.sonuc.label_isim.setText(("İzzet Küçükağaoğlu").decode('utf-8'))
+
         
 
         print "button %s was pressed" % sender.text()

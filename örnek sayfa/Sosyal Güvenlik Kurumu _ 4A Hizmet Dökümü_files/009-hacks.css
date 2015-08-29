@@ -1,0 +1,30 @@
+/* ALL BROWSERS*/
+#loginLink { -webkit-transition: box-shadow 0.5s, border 0.5s; -moz-transition: box-shadow 0.5s, border 0.5s; -ms-transition: box-shadow 0.5s, border 0.5s; -o-transition: box-shadow 0.5s, border 0.5s; }
+#searchField { -webkit-transition: box-shadow 0.5s, background 0.5s, border 0.5s; -moz-transition: box-shadow 0.5s, background 0.5s, border 0.5s; -ms-transition: box-shadow 0.5s, background 0.5s, border 0.5s; -o-transition: box-shadow 0.5s, background 0.5s, border 0.5s; }
+#sectionsBlock li a { -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -ms-transition: opacity 0.5s; -o-transition: opacity 0.5s; }
+#callToActionBlock li a { -webkit-transition: color 0.25s; -moz-transition: color 0.25s; -ms-transition: color 0.25s; -o-transition: color 0.25s; }
+#serviceBlock .serviceForm fieldset .formRow { -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -ms-transition: background-color 0.5s; -o-transition: background-color 0.5s; }
+#serviceBlock .serviceForm fieldset .formRow:hover { -webkit-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -ms-transition: background-color 0.5s; -o-transition: background-color 0.5s; }
+#agencyServices .agencyServiceBlock { -webkit-transition: box-shadow 750ms, background 750ms; -moz-transition: box-shadow 750ms, background 750ms; -ms-transition: box-shadow 750ms, background 750ms; -o-transition: box-shadow 750ms, background 750ms; }
+#agencyServices .agencyServiceBlock:hover { -webkit-transition: box-shadow 750ms, background 750ms; -moz-transition: box-shadow 750ms, background 750ms; -ms-transition: box-shadow 750ms, background 750ms; -o-transition: box-shadow 750ms, background 750ms; }
+#agencyListBlock .agencyDetailBlock:hover { -webkit-transition: box-shadow 750ms, background 750ms; -moz-transition: box-shadow 750ms, background 750ms; -ms-transition: box-shadow 750ms, background 750ms; -o-transition: box-shadow 750ms, background 750ms; }
+#agencyListBlock .agencyDetailBlock { -webkit-transition: box-shadow 750ms, background 750ms; -moz-transition: box-shadow 750ms, background 750ms; -ms-transition: box-shadow 750ms, background 750ms; -o-transition: box-shadow 750ms, background 750ms; }
+#agencyListBlock.compact .agencyDetailBlock:hover h3 { -webkit-transition: height 750ms; -moz-transition: height 750ms; -ms-transition: height 750ms; -o-transition: height 750ms; }
+#agencyListBlock.compact .agencyDetailBlock h3 { -webkit-transition: height 750ms; -moz-transition: height 750ms; -ms-transition: height 750ms; -o-transition: height 750ms; }
+section.noInfo .tablePagination ul { width: 600px !important;}
+#contentBlock .staticContainer .twoColumn {-webkit-column-count:2;-moz-column-count:2;-webkit-column-gap:20px;-moz-column-gap:20px;}
+/* IE OLD */
+.oldie #personalBlock #loginLink { background: #F0F0F0 url(../images/16px-icons.png) no-repeat 100px 4px; }
+.oldie #searchField { padding: 6px 30px 0px 4px; }
+.oldie #searchButton { bottom: 26px; }
+.oldie #popularServices li { width: 205px; border: 1px solid #E0E0E0; margin: 5px }
+.oldie #serviceBlock .serviceForm fieldset .formRow .radioButton { vertical-align: middle; margin-bottom: 4px; }
+.oldie #serviceBlock .serviceForm fieldset .formRow .checkBox { vertical-align: middle; margin-bottom: 4px; }
+.oldie #serviceBlock .serviceContainer { background-color: #FFFFFF!important; }
+.oldie #searchBlock #popSearch { border: 1px solid #CCC; }
+.oldie #personalBlock #myMessagesLink {width:30px}
+/* IE6 */
+.oldie #featureList { _width: 645px; }
+.oldie #featureList li { _width: 190px; _font-size: 90%; }
+.oldie #popularServicesBlock .sectionTitle { _margin-right: 0px; }
+.oldie #personalBlock #loginLink { _text-indent: 0px; _background: #F0F0F0 url(../images/16px-icons.png) no-repeat 108px 4px; }
